@@ -15,7 +15,7 @@ Easy Integration: The repository provides clear instructions on how to integrate
 ## Usage:
 
 - **Clone or download the repository to your local environment.**
-- **Use the index.php file to create your project in their.**
+- **Use the index.php file to create your project in it.**
 - **Remove the printings for the Objects if you're finished.**
 
 ## Contributing:
