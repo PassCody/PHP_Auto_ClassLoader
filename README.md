@@ -14,29 +14,16 @@ Easy Integration: The repository provides clear instructions on how to integrate
 
 ## Usage:
 
-Clone or download the repository to your local environment.
-Include the AutoClassLoader.php file in your project.
-Configure the autoloader by specifying your project's namespace and the corresponding base directory.
-Start using your classes without worrying about manual includes or requires.
+**Clone or download the repository to your local environment.
+**Use the index.php file to create your project in their.
+**Remove the printings for the Objects if you're finished.
 
-Example:
-```
-// Include the autoloader
-require_once 'path/to/index.php';
-
-// Configure the autoloader with your namespace and base directory
-index::register('Your\\Namespace', 'path/to/your/directory');
-
-// Now you can create instances of your classes without manual includes
-$example = new Your\Namespace\ExampleClass();
-$anotherExample = new Your\Namespace\AnotherClass();
-```
 ## Contributing:
 
 Contributions to this project are welcome! If you have any ideas for improvements, bug fixes, or additional features, feel free to create a pull request. Please ensure that your contributions align with the project's goals and coding standards.
 
-## License:
+## License
 
-This project is licensed under the MIT License. Make sure to review the license before using or contributing to the project.
+This project is licensed under the [MIT License](LICENSE). Before using or contributing to the project, make sure to review the license terms.
 
-Feel free to explore the repository, provide feedback, and make the most of the PHP Auto ClassLoader to enhance your PHP development workflow. Happy coding!
+Feel free to explore the repository, generate your lucky numbers, and make use of the EuroJackpot Number Generator to enhance your lottery experience. Best of luck!
