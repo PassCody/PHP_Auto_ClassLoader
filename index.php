@@ -10,7 +10,19 @@
 		</title>
 		<link rel="shortcut icon" href="./src/imgs/favicon-icon.png">
 		<link rel="stylesheet" type="text/css" href="./src/css/main.css" />
-	</head>
+		<?php /* LIBARY LOADER */
+			require_once("./init.php");
+			$init = new Initialisation();
+			
+			/* RUN LIBARY LOADER */
+			$init->loadBS();
+			
+			/* LOAD CSS FILES */
+			$init->loadCSSFiles();
+			
+			/* LOAD JS FILES */
+			$init->loadJSFiles();
+		?></head>
 	<body>
 		<?php
 			include_once($init->getMainDir()."src/tools/php/ClassLoader.php");
