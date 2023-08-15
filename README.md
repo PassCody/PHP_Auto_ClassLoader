@@ -18,6 +18,15 @@ Easy Integration: The repository provides clear instructions on how to integrate
 - **Use the index.php file to create your project in it.**
 - **Remove the printings for the Objects if you're finished.**
 
+## Including Libraries
+
+For optimal website performance, utilize the Automated Bootstrap 5 integration from my repository's stories.
+
+To achieve this, follow these steps:
+
+1. Download the following repository: [AutoBootStrapLoader](https://github.com/PassCody/AutoBootStrapLoader)
+2. Move the `Library` folder from the Auto Bootstrap Loader into the main directory where the files of the EuroJackpot Number Generator are located.
+
 ## Contributing:
 
 Contributions to this project are welcome! If you have any ideas for improvements, bug fixes, or additional features, feel free to create a pull request. Please ensure that your contributions align with the project's goals and coding standards.
